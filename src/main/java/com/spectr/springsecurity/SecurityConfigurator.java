@@ -25,7 +25,8 @@ public class SecurityConfigurator {
     private TokenFilter tokenFilter;
     private UserService userService;
 
-    public SecurityConfigurator() {}
+    public SecurityConfigurator() {
+    }
 
     @Autowired
     public void setTokenFilter(TokenFilter tokenFilter) {
